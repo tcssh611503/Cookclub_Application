@@ -10,8 +10,8 @@ with open("Cookclub_Application.csv","r") as my_input_file:
 
 with open('Cookclub_Application.txt', "w") as my_output_file:
 
-    my_output_file.write("No.")
     for line in text_list:
-        my_output_file.write("  " + line+ "\n" + "__________________________________________________________" +"\n"  )
         my_output_file.write("No.")
+        my_output_file.write("  " + line+ "\n" + "__________________________________________________________" +"\n"  )
+  
     print('File Successfully written.')
